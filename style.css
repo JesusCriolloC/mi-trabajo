@@ -1,0 +1,137 @@
+body{
+   font-family: Long Cang;
+}
+body{
+   background:#00FFF9;
+}
+h1{ background: white;
+  font-family:Long Cang;
+  color: red;
+  text-align: center;
+  font-size: 25PX;
+
+}
+h1:hover{ background: #65D80B;
+
+marquee
+
+}
+
+ h2:hover{ background: #65D80B;
+  }
+p:hover{ background: #65D80B;
+   }
+   
+p{
+ background: white;
+  font-family: Krona One;
+   color: rgb(3, 2, 17);
+   font-size: 25px;
+   font-family: Castellar;
+   text-align: center;
+
+
+}
+
+
+h2{
+  background: white;
+  font-family: castellar;
+   color: rgb(3, 2, 17);
+   font-family:Long Cang;
+   font-size: 25px;
+   text-align: center;
+}
+/*ESTILOS GENERALES*/
+
+nav ul{
+   list-style: none;
+   padding: 0;
+}
+nav li {
+   line-height: 3rem;
+   position: relative;
+   font-size: 35px;
+
+}
+.menu ul{
+   position: absolute;
+
+}
+nav a{
+   color: #ddd;
+   display: block;
+   padding: 0 2.5em;
+   text-decoration: none;
+   transition: .4s;
+}
+nav a:hover{
+   background: rgba(#13455);
+}
+footer{
+   background-color:red;
+   color: white;
+    font-size: 20px;
+   text-align: center;
+   font-family:Krona One;
+}
+figcaption{
+   color: red;
+   font-family: Krona One;
+   font-size: 25px;
+}
+/*PRIMER NIVEL*/
+.menu{
+   background: #333;
+   display: table;
+   width: 100%;
+}
+.menu > li{
+float: left;
+}
+/*SEGUNDO NIVEL*/
+nav li li {
+   background: #222;
+   max-height: 0;
+   transition: all .5s;
+   overflow: hidden;
+   width: 130%;
+}
+nav li:hover >ul > li{
+   max-height: 500%;
+   overflow: visible;
+}
+.menu li > ul{
+top: 100%;
+}
+h4{
+
+  font-family: Krona One;
+  color: black;
+  text-align: ;
+  font-size: 15PX;
+
+}
+h3{
+  font-family: Krona One;
+  color:black;
+  text-align: ;
+  font-size: 25PX;
+}
+nav{
+  font-family: Lobster;
+  color:#FFFFFF;
+  text-align: ;
+  font-size: 25PX;
+}
+
+h5:hover{ background: #65D80B;
+
+  }
+h5{
+  background: white;
+  font-family: Long Cang;
+   color: rgb(3, 2, 17);
+   font-size: 35px;
+   font-family: Forte;
+   text-align: center;}
